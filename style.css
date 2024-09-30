@@ -62,3 +62,16 @@ h3 , p {
 #image3 {
     background-image: url(./photo-1543169108-32ac15a21e05.avif);
 }
+
+@media (max-width: 900px) {
+  body {
+    font-size: 14px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+    flex-direction: column;
+  }
